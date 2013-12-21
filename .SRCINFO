@@ -12,7 +12,6 @@ pkgbase = jreen
 	depends = zlib
 	provides = jreen
 	conflicts = jreen-git
-	options = !strip
 	source = http://qutim.org/dwnl/44/libjreen-1.1.1.tar.bz2
 	sha256sums = 607e3521b7fe8de54e7763e958efe05c5491f50f70a7d0811bdb8dea3515b5e2
 
