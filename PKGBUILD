@@ -3,7 +3,7 @@
 
 pkgname=jreen
 pkgver=1.2.1
-pkgrel=2
+pkgrel=3
 pkgdesc="Free and Opensource Jabber library, written in C++ using cross-platform framework Qt."
 arch=('i686' 'x86_64')
 url="http://qutim.org/jreen"
