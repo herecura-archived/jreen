@@ -2,8 +2,8 @@
 # https://github.com/zizzfizzix/pkgbuilds
 
 pkgname=jreen
-pkgver=1.2.1
-pkgrel=3
+pkgver=1.3.0
+pkgrel=1
 pkgdesc="Free and Opensource Jabber library, written in C++ using cross-platform framework Qt."
 arch=('i686' 'x86_64')
 url="http://qutim.org/jreen"
@@ -14,7 +14,7 @@ provides=('jreen')
 conflicts=('jreen-git')
 source=("${pkgname}-${pkgver}.zip::http://github.com/euroelessar/${pkgname}/archive/v${pkgver}.zip"
 	'jreenMacros.cmake.patch')
-sha256sums=('f5124fe6e24400703b86279f903332a175469b8aef43904fb84bb28c89c3e7bf'
+sha256sums=('3981bf04f045d25480c4b25449d965f62a054f9b285c2c5cb825bdf9e5aa747e'
             '52f719c34820747b577f2684fe4fa563b68df476b4b2e3d67886d3e74c4bf6db')
 
 prepare() {
